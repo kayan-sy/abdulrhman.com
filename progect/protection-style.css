@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&family=Noto+Kufi+Arabic:wght@200;300;400;500;600;700&family=Noto+Sans+Lao+Looped&family=Noto+Sans+Mono:wght@200;300;400;500;600&family=Roboto+Condensed&display=swap');
+*
+{
+font-family: 'Cairo',system-ui, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header
+{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    padding: 10px 150px;
+    justify-content: space-between;
+}
+.logo
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+.logo:hover
+{
+    color: red;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li a 
+{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 1.4em;
+    font-weight: 500;
+    transition: 0.8s ease;
+}
+header ul li a:hover
+{
+    color: red;
+}
+.data
+{
+    text-align: center;
+}
+.data p
+{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.data h2 span
+{
+    color: red;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: inherit;
+}
+.data h4
+{
+    font: size 1.2em;
+    font-weight: 450;
+
+}
+.te
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.plan
+{
+    background-color: white;
+    border: 2px black solid;
+    min-height: 15em;
+    width: 23em;
+    overflow: hidden;
+    justify-content: space-between;
+    font-size: 1em;
+    font-weight: 600;
+}
+.creator
+{
+    font-size: 0.9em;
+    justify-content: space-between;
+    margin: 10px;
+}
+.plan2
+{
+    background-color: white;
+    border: 2px black solid;
+    min-height: 15em;
+    width: 23em;
+    overflow: hidden;
+    justify-content: space-between;
+    font-size: 1em;
+    font-weight: 600;
+}
+.plan2 span
+{
+    color: red;
+    font-size: 1.1em;
+}
+.data2
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.data2 h2
+{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    align-items: center;
+}
+.info2
+{
+    text-align: right;
+}
+span
+{
+    color: red;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.data2 a
+{
+    text-decoration: none;
+    color: red;
+    transition: 0.7s ease;
+}
+.data2 a:hover
+{
+    color: blue;
+    font-size: 1.4em;
+}

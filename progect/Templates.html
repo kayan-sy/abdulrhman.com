@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Templates-style.css">
+    <link rel="icon" href="icons/server_rack_telecommunications_data_server_network_devices_data_center_icon_193975.ico">
+    <title>القوالب</title>
+</head>
+<body>
+    <header>
+        <h2><a href="index.html" class="logo">تكويد</a></h2>
+          <ul>
+            <li><a href="servess.html">خدمات</a></li>
+             <li><a href="contant-tele.html">تواصل</a></li>
+             <li><a href="about.html">حول</a></li>
+          </ul>
+      </header>
+      <section>
+        <h2>تعريف عن <span>القوالب</span></h2>
+        <img src="img/shoot.png" width="45%" height="45%" border="2px">
+        <h3>ما هو <span>القالب</span>؟</h3>
+        <h3>انه عبارة عن صفحة نموذجية صغيرة تحتوي فقرة او مقطعاً من علامات HTML يسهل ادراجه في صفحة نموذجية اخرى او - وهذا هو التحديث المهم - في مادة اي مقال.</h3><br>
+        <h4>وتم توسيع كتابتهما بما يتيح، عدا عن المحاذاة (<img1|left>, <img1|right>)، إمكان تحديد نمط أكثر شمولاً يتناسب إما مع صفحة نموذجية معينة اذا وجدت او مع نمط من ورقة الأنماط (يسترجع <img1|classe> القالب modeles/img_classe.html اذا وجد ملفه والا فيستخدم القالب modeles/img.html ولكن مع متغير class="classe").
+
+            لكن لا تكتفي القوالب بالتعامل مع الصور والمستندات، فتتيح انشاء مختصرات جديدة من نوع <model1> بمجرد إضافة صفحة نموذجية في مجلد modeles/ داخل مجلد الصفحات النموذجية!</h4>
+                <img src="img/modle.webp" width="50%" height="50%" border="2px">
+      </section>
+      <section class="data">
+        <h3>له استخدامات متعددة:</h3>
+        <ul>
+            <li>تغيير شكل اختصارات المستندات</li>
+            <li> تشغيل صوت بواسطة مشغّل فلاش</li>
+            <li> ربط موقع بمقال</li>
+            <li>عرض صورة كطابع بريدي</li>
+            <li>إنشاء مقال مركّب</li>
+        </ul>
+        <h3>أيضاً استخدام ممكن في الصفحات النموذجية:</h3>
+        <li>لا تستخدم القوالب كاختصارات في المقالات فقط. فمن الممكن نداؤها من الصفحة النموذجية باستخدام علامة #MODELE{model} او [(#MODELE{model}{p1=شيء1,p2=شيء2}{p3=الخ}|مرشح...)]. هذا ليس بجديد لأنه يعادل الإدراج (غير الديناميكي) لصفحة نموذجية (وهو الإدراج الذي تطبقه أيضاً علامة #INCLURE).</li>
+        <li>يأتي SPIP مع القوالب التالية:
+             imgو docو emb
+             article_mots وarticle_traductions اللذان يسترجعان تباعاً لائحة المفاتيح المرتبطة بمقال ما وترجمات المقال (الاختصاران: <article1|mots> و<article1|traductions> ويتم أيضاً نداء هذين القالبين من الصفحة النموذجية dist/article.html)
+             lesauteurs الذي يحدد نتاج علامة #LESAUTEURS ولكن لا يمكن نداؤه كاختصار</li>
+      </section>
+      <footer class="footer">
+        <p class="footer-title">جميع الحقوق محفوظة لدى @<span>عبدالرحمن</span></p>
+     </footer>
+</body>
+</html>
